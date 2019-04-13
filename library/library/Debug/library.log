@@ -1,0 +1,118 @@
+﻿Build started 04/10/2016 10:10:49 SA.
+     1>Project "C:\Users\nguye_000\Documents\Visual Studio 2013\Projects\library\library\library.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\library.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt function.cpp library.cpp
+         library.cpp
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(41): error C2535: 'void function::Init(function::DList &)' : member function already defined or declared
+                 c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(25) : see declaration of 'function::Init'
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(47): error C2535: 'int function::Empty(function::DList)' : member function already defined or declared
+                 c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(26) : see declaration of 'function::Empty'
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(52): error C2535: 'int function::Lengh(function::DList)' : member function already defined or declared
+                 c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(27) : see declaration of 'function::Lengh'
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(78): error C2535: 'void function::Insert_first(function::DList &,function::item)' : member function already defined or declared
+                 c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(29) : see declaration of 'function::Insert_first'
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(95): error C2535: 'void function::Insert_last(function::DList &,function::item)' : member function already defined or declared
+                 c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(30) : see declaration of 'function::Insert_last'
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(112): error C2535: 'void function::Insert_k(function::DList &,function::item,int)' : member function already defined or declared
+                 c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(31) : see declaration of 'function::Insert_k'
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(140): error C2535: 'void function::Del_first(function::DList &,function::item &)' : member function already defined or declared
+                 c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(32) : see declaration of 'function::Del_first'
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(159): error C2535: 'void function::Del_k(function::DList &,function::item &,int)' : member function already defined or declared
+                 c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(33) : see declaration of 'function::Del_k'
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(185): error C2535: 'int function::Search(function::DList,function::item)' : member function already defined or declared
+                 c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(34) : see declaration of 'function::Search'
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(198): error C2535: 'void function::Del_x(function::DList &,function::item)' : member function already defined or declared
+                 c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(35) : see declaration of 'function::Del_x'
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(209): error C2535: 'void function::Input(function::DList &)' : member function already defined or declared
+                 c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(36) : see declaration of 'function::Input'
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(222): error C2535: 'void function::Output(function::DList)' : member function already defined or declared
+                 c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(37) : see declaration of 'function::Output'
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(260): error C2059: syntax error : ')'
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(307): error C2059: syntax error : 'while'
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(307): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(308): error C2059: syntax error : 'return'
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(308): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(310): error C2143: syntax error : missing ';' before '}'
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(310): error C2059: syntax error : '}'
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(81): error C3861: 'Isempty': identifier not found
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(98): error C3861: 'Isempty': identifier not found
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(114): error C3861: 'Len': identifier not found
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(128): error C2039: 'Right' : is not a member of 'function::Node'
+                 c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(13) : see declaration of 'function::Node'
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(131): error C2039: 'Right' : is not a member of 'function::Node'
+                 c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(13) : see declaration of 'function::Node'
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(132): error C2039: 'Left' : is not a member of 'function::Node'
+                 c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(13) : see declaration of 'function::Node'
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(133): error C2039: 'Right' : is not a member of 'function::Node'
+                 c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(13) : see declaration of 'function::Node'
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(134): error C2039: 'Left' : is not a member of 'function::Node'
+                 c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(13) : see declaration of 'function::Node'
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(141): error C3861: 'Isempty': identifier not found
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(161): error C3861: 'Len': identifier not found
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(174): error C2039: 'Right' : is not a member of 'function::Node'
+                 c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(13) : see declaration of 'function::Node'
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(217): error C2660: 'function::Insert_k' : function does not take 2 arguments
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(217): error C3861: 'Len': identifier not found
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(224): error C2039: 'Right' : is not a member of 'function::Node'
+                 c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(13) : see declaration of 'function::Node'
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(224): fatal error C1903: unable to recover from previous error(s); stopping compilation
+         function.cpp
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(41): error C2535: 'void function::Init(function::DList &)' : member function already defined or declared
+                 c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(25) : see declaration of 'function::Init'
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(47): error C2535: 'int function::Empty(function::DList)' : member function already defined or declared
+                 c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(26) : see declaration of 'function::Empty'
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(52): error C2535: 'int function::Lengh(function::DList)' : member function already defined or declared
+                 c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(27) : see declaration of 'function::Lengh'
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(78): error C2535: 'void function::Insert_first(function::DList &,function::item)' : member function already defined or declared
+                 c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(29) : see declaration of 'function::Insert_first'
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(95): error C2535: 'void function::Insert_last(function::DList &,function::item)' : member function already defined or declared
+                 c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(30) : see declaration of 'function::Insert_last'
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(112): error C2535: 'void function::Insert_k(function::DList &,function::item,int)' : member function already defined or declared
+                 c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(31) : see declaration of 'function::Insert_k'
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(140): error C2535: 'void function::Del_first(function::DList &,function::item &)' : member function already defined or declared
+                 c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(32) : see declaration of 'function::Del_first'
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(159): error C2535: 'void function::Del_k(function::DList &,function::item &,int)' : member function already defined or declared
+                 c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(33) : see declaration of 'function::Del_k'
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(185): error C2535: 'int function::Search(function::DList,function::item)' : member function already defined or declared
+                 c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(34) : see declaration of 'function::Search'
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(198): error C2535: 'void function::Del_x(function::DList &,function::item)' : member function already defined or declared
+                 c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(35) : see declaration of 'function::Del_x'
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(209): error C2535: 'void function::Input(function::DList &)' : member function already defined or declared
+                 c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(36) : see declaration of 'function::Input'
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(222): error C2535: 'void function::Output(function::DList)' : member function already defined or declared
+                 c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(37) : see declaration of 'function::Output'
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(260): error C2059: syntax error : ')'
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(307): error C2059: syntax error : 'while'
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(307): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(308): error C2059: syntax error : 'return'
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(308): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(310): error C2143: syntax error : missing ';' before '}'
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(310): error C2059: syntax error : '}'
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(81): error C3861: 'Isempty': identifier not found
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(98): error C3861: 'Isempty': identifier not found
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(114): error C3861: 'Len': identifier not found
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(128): error C2039: 'Right' : is not a member of 'function::Node'
+                 c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(13) : see declaration of 'function::Node'
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(131): error C2039: 'Right' : is not a member of 'function::Node'
+                 c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(13) : see declaration of 'function::Node'
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(132): error C2039: 'Left' : is not a member of 'function::Node'
+                 c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(13) : see declaration of 'function::Node'
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(133): error C2039: 'Right' : is not a member of 'function::Node'
+                 c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(13) : see declaration of 'function::Node'
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(134): error C2039: 'Left' : is not a member of 'function::Node'
+                 c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(13) : see declaration of 'function::Node'
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(141): error C3861: 'Isempty': identifier not found
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(161): error C3861: 'Len': identifier not found
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(174): error C2039: 'Right' : is not a member of 'function::Node'
+                 c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(13) : see declaration of 'function::Node'
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(217): error C2660: 'function::Insert_k' : function does not take 2 arguments
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(217): error C3861: 'Len': identifier not found
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(224): error C2039: 'Right' : is not a member of 'function::Node'
+                 c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(13) : see declaration of 'function::Node'
+     1>c:\users\nguye_000\documents\visual studio 2013\projects\library\library\function.h(224): fatal error C1903: unable to recover from previous error(s); stopping compilation
+         Generating Code...
+     1>Done Building Project "C:\Users\nguye_000\Documents\Visual Studio 2013\Projects\library\library\library.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.56
